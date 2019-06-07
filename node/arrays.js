@@ -40,3 +40,8 @@ const custoDaRefeicaoComplexa = comidas3.reduce((acumulador, comida) =>
   { return acumulador + comida.valor}, 0)
 
   console.log(custoDaRefeicao)
+
+
+  const sorteiaNumero = Math.floor(Math.random()*36)
+
+  console.log('*** sorteio numero:', sorteiaNumero)
